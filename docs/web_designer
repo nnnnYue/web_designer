@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T08:56:28.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="78vqeaXCOh48zx_VoZnf" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T10:14:53.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="HdHgvr0JV_QIVVs8-NRQ" version="14.4.5" type="github">
   <diagram id="R0S2NQ4lP6pnmiXCezmD" name="第 1 页">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -53,6 +53,29 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mCa8bdxVVCEe9Jatyoy4-15" target="VyJy7NfLfqjvNVAw6TR1-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="210" />
+              <mxPoint x="1415" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-35" value="界面布局 - 数据同步渲染 - 3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-34">
+          <mxGeometry x="0.1163" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-36" value="designerContent: rander(h)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-34">
+          <mxGeometry x="0.817" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-37" value="Store: 更新 page、plugins" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-34">
+          <mxGeometry x="-0.8405" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mCa8bdxVVCEe9Jatyoy4-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;数据共享&lt;/i&gt;&lt;br&gt;&lt;b&gt;Store&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ page: Type 页面数据&lt;br&gt;+ plugins: Type 页面上的所有组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ currentPlugins 当前选中的组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ perviewHtml 预览HTML&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ defaultThemeColor 默认主题颜色&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ clipboard 剪贴板数据&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pluginRefs 组件ref引用&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addPlugin(optoins): 添加组件&lt;br&gt;+ delPlugin(id: string): 删除组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updatePluginsProps(optoins) 更新组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateCurrentPlugins(options) 更新当前组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setPreviewHtml(html) 更新预览HTML&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setClipboard(data) 设置剪切板&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setPluginsRef(data) 设置引用&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="300" width="320" height="260" as="geometry" />
         </mxCell>
@@ -89,6 +112,77 @@
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-14" value="新增组件 - 数据生成 - 3&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-10">
           <mxGeometry x="-0.0105" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyJy7NfLfqjvNVAw6TR1-15" target="VyJy7NfLfqjvNVAw6TR1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-29" value="界面布局 - 拖拽组件至设计区 - 1&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-28">
+          <mxGeometry x="0.2667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-15" value="componentsList 组件库区" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="110" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-16" value="+ optoins: array 待渲染的组件集合" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-15">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-15">
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-18" value="+ render(h): html 渲染组件列表&#xa;+ detectCreateElement(obj) 筛选出系统支持的参数&#xa;+ dragstart(event) 拖拽开始事件&#xa;+ dragover(event)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-15">
+          <mxGeometry y="60" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyJy7NfLfqjvNVAw6TR1-19" target="mCa8bdxVVCEe9Jatyoy4-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1415" y="690" />
+              <mxPoint x="830" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-31" value="designerContent: drop() 调用 addPlugin()&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-30">
+          <mxGeometry x="-0.9394" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-32" value="Store: addPlugin()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-30">
+          <mxGeometry x="0.903" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-33" value="界面布局 - 新增组件数据 - 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-30">
+          <mxGeometry x="0.023" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-19" value="designerContent 界面设计区" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="300" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-20" value="+ page: State&#xa;+ plugins: State&#xa;+ currentPlugins: State&#xa;+ clipboard: State" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-19">
+          <mxGeometry y="26" width="280" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-19">
+          <mxGeometry y="100" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-22" value="+ updatePageProps(): Mutation&#xa;+ addPlugin(): Mutation&#xa;+ updateCurrentPlugins(): Mutation&#xa;+ updatePluginsProps(): Mutation&#xa;+ delPlugin(): Mutation&#xa;+ setClipboard(): Mutation&#xa;+ setPluginsRef(): Mutation&#xa;+ rander(h): Html 渲染界面&#xa;+ drop(event) 放置元素时触发&#xa;+ dragover(event) 正在拖动时触发&#xa;+ dragend(event) 放置元素结束时触发" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-19">
+          <mxGeometry y="108" width="280" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="VyJy7NfLfqjvNVAw6TR1-20" target="mCa8bdxVVCEe9Jatyoy4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-25" value="get State&#39;s data from Store" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-24">
+          <mxGeometry x="-0.4323" y="1" relative="1" as="geometry">
+            <mxPoint x="-54" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="VyJy7NfLfqjvNVAw6TR1-22" target="mCa8bdxVVCEe9Jatyoy4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-27" value="update State&#39;s data by call Store&#39;s Mutation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-26">
+          <mxGeometry x="-0.1034" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
