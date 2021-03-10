@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T06:51:27.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="SvyQb39JU-szxQd2rVCt" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T06:59:52.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="nZ1cEbTFI6KKtdG0vGa7" version="14.4.5" type="github">
   <diagram id="R0S2NQ4lP6pnmiXCezmD" name="第 1 页">
     <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mCa8bdxVVCEe9Jatyoy4-1" value="Page 页面" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="mCa8bdxVVCEe9Jatyoy4-1" value="Class：Page 页面" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="90" width="290" height="180" as="geometry">
             <mxRectangle x="100" y="150" width="60" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -18,7 +18,7 @@
         <mxCell id="mCa8bdxVVCEe9Jatyoy4-4" value="+ createPage(pageData: object) 创建页面&#xa;+ updatePage(pageData:object) 更新页面&#xa;+ addPlugin(plugin: object): array 添加组件&#xa;+ delPlugin(plugin: object): 删除组件&#xa;+ updatePlugin(plugin: object): array 更新组件&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="mCa8bdxVVCEe9Jatyoy4-1" vertex="1">
           <mxGeometry y="98" width="290" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="mCa8bdxVVCEe9Jatyoy4-6" value="Plugins 组件集合" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="mCa8bdxVVCEe9Jatyoy4-6" value="Class ：Plugins 组件集合" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="550" width="290" height="130" as="geometry" />
         </mxCell>
         <mxCell id="mCa8bdxVVCEe9Jatyoy4-7" value="+ plugins: array 保存组件的集合" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="mCa8bdxVVCEe9Jatyoy4-6" vertex="1">
@@ -205,7 +205,7 @@
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-38" value="主界面&lt;br style=&quot;font-size: 16px;&quot;&gt;desigenerPage.view" style="html=1;fontStyle=1;fontSize=16;labelBackgroundColor=none;fillColor=#FFCCE6;strokeColor=#FF99CC;" vertex="1" parent="1">
           <mxGeometry x="2130" y="454" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-43" value="pageFormView 页面表单" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-43" value="Class：pageFormView 页面表单" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1070" width="310" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-44" value="+ options: object 表单参数&#xa;+ model: object&#xa;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
