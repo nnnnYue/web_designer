@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T03:52:21.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="wCCwl1jhFNUJ4Gyey_vB" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T04:00:34.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="jJ6KHCo6qL5jGY9en_6H" version="14.4.5" type="github">
   <diagram id="R0S2NQ4lP6pnmiXCezmD" name="第 1 页">
-    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mCa8bdxVVCEe9Jatyoy4-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;数据共享&lt;/i&gt;&lt;br&gt;&lt;b&gt;Store&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ page: Type 页面数据&lt;br&gt;+ plugins: Type 页面上的所有组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ currentPlugins 当前选中的组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ perviewHtml 预览HTML&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ defaultThemeColor 默认主题颜色&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ clipboard 剪贴板数据&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pluginRefs 组件ref引用&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addPlugin(optoins): 添加组件&lt;br&gt;+ delPlugin(id: string): 删除组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updatePluginsProps(optoins) 更新组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateCurrentPlugins(options) 更新当前组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setPreviewHtml(html) 更新预览HTML&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setClipboard(data) 设置剪切板&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setPluginsRef(data) 设置引用&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+        <mxCell id="mCa8bdxVVCEe9Jatyoy4-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;数据共享&lt;/i&gt;&lt;br&gt;&lt;b&gt;Store&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ page: Type 页面数据&lt;br&gt;+ plugins: Type 页面上的所有组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ currentPlugins 当前选中的组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ perviewHtml 预览HTML&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ defaultThemeColor 默认主题颜色&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ clipboard 剪贴板数据&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pluginRefs 组件ref引用&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ addPlugin(optoins): 添加组件&lt;br&gt;+ delPlugin(id: string): 删除组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updatePluginsProps(optoins) 更新组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ updateCurrentPlugins(options) 更新当前组件&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setPreviewHtml(html) 更新预览HTML&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setClipboard(data) 设置剪切板&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setPluginsRef(data) 设置引用&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#B266FF;fillColor=#CCE5FF;" parent="1" vertex="1">
           <mxGeometry x="670" y="300" width="320" height="260" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mCa8bdxVVCEe9Jatyoy4-4" target="mCa8bdxVVCEe9Jatyoy4-9">
@@ -202,31 +202,31 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-38" value="主界面&lt;br style=&quot;font-size: 16px;&quot;&gt;desigenerPage.view" style="html=1;fontStyle=1;fontSize=16;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-38" value="主界面&lt;br style=&quot;font-size: 16px;&quot;&gt;desigenerPage.view" style="html=1;fontStyle=1;fontSize=16;labelBackgroundColor=none;fillColor=#FFCCE6;strokeColor=#FF99CC;" vertex="1" parent="1">
           <mxGeometry x="2141" y="400" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-43" value="pageFormView 页面表单" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-43" value="pageFormView 页面表单" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1070" width="310" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-44" value="+ options: object 表单参数&#xa;+ model: object&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-44" value="+ options: object 表单参数&#xa;+ model: object&#xa;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
           <mxGeometry y="26" width="310" height="44" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
           <mxGeometry y="70" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-46" value="+ render(h): string 渲染页面，返回html标签字符&#xa;+ updateOptionFn: Watch(options) 监听options 变化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-46" value="+ render(h): string 渲染页面，返回html标签字符&#xa;+ updateOptionFn: Watch(options) 监听options 变化" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
           <mxGeometry y="78" width="310" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-56" value="事件配置" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-56" value="事件配置区" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="1560" y="710" width="330" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-57" value="+ options: object 组件配置参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-56">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-57" value="+ options: object 组件配置参数" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-56">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-56">
           <mxGeometry y="52" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-59" value="+ watch(options.custom.eventConfig) 监听事件配置&#xa;+ watch(options.custom.eventListener) 更新事件参数配置&#xa;+ createEventConfig()&#xa;+ createEventListener()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-56">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-59" value="+ watch(options.custom.eventConfig) 监听事件配置&#xa;+ watch(options.custom.eventListener) 更新事件参数配置&#xa;+ createEventConfig()&#xa;+ createEventListener()" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-56">
           <mxGeometry y="60" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="VyJy7NfLfqjvNVAw6TR1-60">
@@ -252,7 +252,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-60" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;基础配置&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ options: object 组件配置&lt;br&gt;+ updateOptions: Function&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-60" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;基础配置区&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ options: object 组件配置&lt;br&gt;+ updateOptions: Function&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fontSize=13;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="1670" y="923" width="220" height="87" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-61" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-60">
@@ -283,7 +283,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-62" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;数据配置&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ options: object 组件配置&lt;br&gt;+ updateOptions: Function&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-62" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;数据配置区&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ options: object 组件配置&lt;br&gt;+ updateOptions: Function&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="1670" y="1260" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-63" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-62">
@@ -310,6 +310,16 @@
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-72" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;labelBackgroundColor=none;fontSize=13;direction=west;" vertex="1" parent="1">
           <mxGeometry x="2020" y="740" width="50" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="VyJy7NfLfqjvNVAw6TR1-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-84" value="事件配置 - 修改配置 - 保存触发 Store: updatePluginsProps()&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="VyJy7NfLfqjvNVAw6TR1-83">
+          <mxGeometry x="-0.0904" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
