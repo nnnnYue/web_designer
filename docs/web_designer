@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T04:00:34.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="jJ6KHCo6qL5jGY9en_6H" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T06:51:27.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="SvyQb39JU-szxQd2rVCt" version="14.4.5" type="github">
   <diagram id="R0S2NQ4lP6pnmiXCezmD" name="第 1 页">
     <mxGraphModel dx="1673" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -123,16 +123,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-15" value="componentsList 组件库区" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-15" value="componentsList 组件库区" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="1670" y="110" width="290" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-16" value="+ optoins: array 待渲染的组件集合" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-15">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-16" value="+ optoins: array 待渲染的组件集合" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-15">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-15">
           <mxGeometry y="52" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-18" value="+ render(h): html 渲染组件列表&#xa;+ detectCreateElement(obj) 筛选出系统支持的参数&#xa;+ dragstart(event) 拖拽开始事件&#xa;+ dragover(event)&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-15">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-18" value="+ render(h): html 渲染组件列表&#xa;+ detectCreateElement(obj) 筛选出系统支持的参数&#xa;+ dragstart(event) 拖拽开始事件&#xa;+ dragover(event)&#xa;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-15">
           <mxGeometry y="60" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VyJy7NfLfqjvNVAw6TR1-19" target="mCa8bdxVVCEe9Jatyoy4-15">
@@ -158,16 +158,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-19" value="designerContent 界面设计区" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-19" value="designerContent 界面设计区" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="1275" y="300" width="280" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-20" value="+ page: State&#xa;+ plugins: State&#xa;+ currentPlugins: State&#xa;+ clipboard: State" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-19">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-20" value="+ page: State&#xa;+ plugins: State&#xa;+ currentPlugins: State&#xa;+ clipboard: State" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-19">
           <mxGeometry y="26" width="280" height="74" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-19">
           <mxGeometry y="100" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-22" value="+ updatePageProps(): Mutation&#xa;+ addPlugin(): Mutation&#xa;+ updateCurrentPlugins(): Mutation&#xa;+ updatePluginsProps(): Mutation&#xa;+ delPlugin(): Mutation&#xa;+ setClipboard(): Mutation&#xa;+ setPluginsRef(): Mutation&#xa;+ rander(h): Html 渲染界面&#xa;+ drop(event) 放置元素时触发&#xa;+ dragover(event) 正在拖动时触发&#xa;+ dragend(event) 放置元素结束时触发" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-19">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-22" value="+ updatePageProps(): Mutation&#xa;+ addPlugin(): Mutation&#xa;+ updateCurrentPlugins(): Mutation&#xa;+ updatePluginsProps(): Mutation&#xa;+ delPlugin(): Mutation&#xa;+ setClipboard(): Mutation&#xa;+ setPluginsRef(): Mutation&#xa;+ rander(h): Html 渲染界面&#xa;+ drop(event) 放置元素时触发&#xa;+ dragover(event) 正在拖动时触发&#xa;+ dragend(event) 放置元素结束时触发" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-19">
           <mxGeometry y="108" width="280" height="172" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="VyJy7NfLfqjvNVAw6TR1-20" target="mCa8bdxVVCEe9Jatyoy4-15">
@@ -203,18 +203,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-38" value="主界面&lt;br style=&quot;font-size: 16px;&quot;&gt;desigenerPage.view" style="html=1;fontStyle=1;fontSize=16;labelBackgroundColor=none;fillColor=#FFCCE6;strokeColor=#FF99CC;" vertex="1" parent="1">
-          <mxGeometry x="2141" y="400" width="200" height="80" as="geometry" />
+          <mxGeometry x="2130" y="454" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-43" value="pageFormView 页面表单" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;fillColor=#CCFFE6;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-43" value="pageFormView 页面表单" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1070" width="310" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-44" value="+ options: object 表单参数&#xa;+ model: object&#xa;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-44" value="+ options: object 表单参数&#xa;+ model: object&#xa;" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
           <mxGeometry y="26" width="310" height="44" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
           <mxGeometry y="70" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-46" value="+ render(h): string 渲染页面，返回html标签字符&#xa;+ updateOptionFn: Watch(options) 监听options 变化" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#CCFFE6;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-46" value="+ render(h): string 渲染页面，返回html标签字符&#xa;+ updateOptionFn: Watch(options) 监听options 变化" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-43">
           <mxGeometry y="78" width="310" height="42" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-56" value="事件配置区" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontSize=13;fillColor=#CCFFE6;" vertex="1" parent="1">
@@ -283,7 +283,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VyJy7NfLfqjvNVAw6TR1-62" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;数据配置区&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ options: object 组件配置&lt;br&gt;+ updateOptions: Function&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="VyJy7NfLfqjvNVAw6TR1-62" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;数据配置区&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ options: object 组件配置&lt;br&gt;+ updateOptions: Function&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;labelBackgroundColor=none;fontSize=13;fillColor=#CCFFE6;" vertex="1" parent="1">
           <mxGeometry x="1670" y="1260" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="VyJy7NfLfqjvNVAw6TR1-63" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="VyJy7NfLfqjvNVAw6TR1-62">
